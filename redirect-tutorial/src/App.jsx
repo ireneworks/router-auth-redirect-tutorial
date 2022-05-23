@@ -1,6 +1,7 @@
 import React from "react";
 import Dialogue from "./dialogue";
 import {nameContext} from "./nameContext";
+import { Route, Switch } from "react-router-dom";
 
 export function App() {
     const context = nameContext;

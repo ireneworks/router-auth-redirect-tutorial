@@ -40,6 +40,6 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
     "prettier": "^2.6.2",
-    "react-router": "^5.3.3"
+    "react-router-dom": "^5.3.3"
   }
 }
