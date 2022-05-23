@@ -11,6 +11,22 @@ const name = "Daniel";
           <context.Provider value={name}>
               <Dialogue/>
           </context.Provider>
+          <ul>
+              <li>
+                  <Link to='/public'>PublicPage</Link>
+              </li>
+              <li>
+                  <Link to='/private'>PrivatePage</Link>
+              </li>
+          </ul>
+    <Switch>
+
+
+
+        <Route path='/public'>
+            <PublicPage/>
+        </Route>
+    </Switch>
       </>
 
   );
